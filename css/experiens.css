@@ -1,0 +1,103 @@
+.menu__link-projects a{
+  opacity: 0.5;
+  cursor: no-drop;
+}
+.menu__link-projects {
+  cursor: no-drop;  
+}
+.menu__link-projects:hover {
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.header {
+  width: 0%;
+  height:0px;
+  width: 100%;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+}
+/*==================================== site ==============================================*/
+.content {
+	padding-top: 30px;
+}
+.site {
+	margin: 0px 0px 16px 0px;
+}
+.site__body {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin: 0px -20px;
+}
+.site__card {
+	flex: 0 1 50%;
+	height: 100%;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.site__card_body {
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+}
+.site__iamge {
+	padding: 0px 0px 80% 0px;
+	margin-bottom: 31px;
+	transition: all 0.3s ease 0s;
+}
+.lasles__card > .site__iamge {
+	padding-bottom: 80%;
+}
+.site__iamge:hover {
+	opacity: 0.6;
+}
+.site__card_links {
+	padding: 0px 16px 16px 16px;
+}
+.site__link {
+	font-size: 23px;
+	line-height: 50px;
+	font-weight: 500;
+	color: #ffffff;
+}
+@media (max-width: 1225px) {
+	.site__link {
+		font-size: calc(26px + 9 * (100vw / 1225));		
+	}
+}
+@media (max-width: 768px) {
+	.site__link {
+		font-size: calc(26px + 9 * ((100vw - 320px) / 1225));		
+	}
+	.site__iamge {
+		margin: 0px 0px 16px 0px;
+	}
+}
+.site__card span {
+	opacity: 0.8;
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.lasles__card > .site__card_body{
+	background-color: #f8636f;
+}
+.dolor_sit > .site__card_body{
+	background-color: #1de9b6;
+}
+.dolor_sit > .site__card_body > .site__iamge {
+	padding: 0px 0px 70%;
+}
+.course_card > .site__card_body > .site__iamge {
+	padding: 0px 0px 70%;
+}
+@media (max-width: 768px) {
+	.site__card {
+		flex: 0 1 100%;
+	}	
+}
+    font-size: 23px;
+    line-height: 22px;
